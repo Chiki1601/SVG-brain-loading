@@ -1,0 +1,45 @@
+body {
+  background: #fef7c1;
+  font-family: nevis;
+}
+
+
+
+h1 {
+  position: relative;
+  top: 325px;
+  left: 18px;
+  text-align: center;
+  animation: hideshow 5s ease alternate infinite;
+  
+}
+
+.brain {
+ position: fixed;
+ top: 100px;
+ align: center;
+ max-height: 200px;
+ animation: kaboom 5s ease alternate infinite;
+  
+}
+
+@keyframes kaboom {
+  60% {
+    transform: scale(1.0);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+  60% {
+    transform: scale(1.0);
+  }
+}
+  
+  @keyframes hideshow {
+  60% { opacity: 0.2; }
+  100% { opacity: 1; }
+  60% {opactiy; 0.2}
+    
+} 
+  
+}
